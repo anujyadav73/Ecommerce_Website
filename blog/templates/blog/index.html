@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog templates demo</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    {% load static %}
+    <a href="{%static 'blog/mystatic.txt'%}">Download my static file</a>
+    <a href="{%static 'blog/tigerpic.jpg'%}">Download Tiger image</a>
+  </body>
+</html>
