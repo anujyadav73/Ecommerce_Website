@@ -5,7 +5,7 @@ urlpatterns = [
     
     path('',views.shop_index,name='ShopHome'),
     path('about/',views.shop_about,name='ShopAbout'),
-    path('contact/',views.shop_contact,name='ShopContact'),
+    path('contact/',views.contact,name='ShopContact'),
     path('tracker/',views.shop_tracker,name='ShopTracker'),
     path('search/',views.shop_search,name='ShopSearch'),
     path('productview/<int:myid>',views.shop_productview,name='ShopProductView'),
